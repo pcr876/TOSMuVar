@@ -2,7 +2,7 @@
 TOSMuvar is tailored for the detection of somatic variants in tumor only samples using long-read sequencing data from Oxford Nanopore technology, employing ClairS-TO for variant calling to enhance accuracy and resolution in identifying complex genomic alterations.
 
 # Getting Started
-**Prerequisites** :
+**Prerequisites** :  
 
 Docker  
 Python  
@@ -49,7 +49,12 @@ The TOSMuVar.sh  script is designed for efficient genomic analysis with several 
 
 **9)  VCF to CSV Conversion** : The resulting VCF files from ClairS-TO are converted into a user-friendly CSV format for easier analysis.  
 
-**10) SNP Plotting** : It plots VAF and RAF against their positions, offering a clear visual representation of allele frequencies across the genome to analyze the trand for potential LOH.
+**10) SNP Plotting** : It plots VAF and RAF against their positions, offering a clear visual representation of allele frequencies across the genome to analyze the trand for potential LOH.  
+
+# Usage  
+./TOSMuVar.sh [-w working dir] [-r reference] [-b bed file]
+
+
        
  
 
